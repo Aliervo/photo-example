@@ -1,2 +1,13 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<img src="logo.svg" alt="Company Logo" />
+
+<h1>Welcome to Example Photography!</h1>
+
+<!-- TODO Add gallery below -->
+
+<style>
+  img {
+    display: block;
+    width: 35vh;
+    margin: 0 auto;
+  }
+</style>
