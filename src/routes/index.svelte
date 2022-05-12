@@ -1,15 +1,23 @@
-<img src="logo.svg" alt="Company Logo" />
+<div class="page" id="top">
+  <img src="logo.svg" class= "logo" alt="Company Logo" />
 
-<h1>Welcome to Example Photography!</h1>
+  <h1>Welcome to Example Photography!</h1>
 
-<div class="quiver">
-  <div class="arrow" />
+  <div class="quiver">
+    <div class="arrow" />
+  </div>
 </div>
 
-<!-- TODO Add gallery below -->
+<div class="page" id="bottom">
+  <div class="gallery">
+   <img class="pic" src="https://picsum.photos/id/110/600">
+   <img class="pic" src="https://picsum.photos/id/19/600">
+   <img class="pic" src="https://picsum.photos/id/1025/600">
+  </div>
+</div>
 
 <style>
-  img {
+  .logo {
     display: block;
     width: 35vh;
     margin: 0 auto;
@@ -43,5 +51,26 @@
     width: 3em;
     height: 3em;
     background: #fff;
+  }
+
+  .gallery {
+    width: 80vw;
+    overflow-x: scroll;
+    display: flex;
+    margin: auto;
+  }
+
+  .pic {
+    padding: 0 .5em;
+  }
+
+  .page {
+    height: 100vh;
+  }
+
+  #top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
   }
 </style>
