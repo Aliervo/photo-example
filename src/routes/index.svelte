@@ -10,6 +10,12 @@
 
 <div class="page" id="bottom">
   <div class="gallery">
+   <img class="pic" id="first" src="https://picsum.photos/id/110/600">
+   <img class="pic" src="https://picsum.photos/id/19/600">
+   <img class="pic" src="https://picsum.photos/id/1025/600">
+   <img class="pic" src="https://picsum.photos/id/1003/600">
+   <img class="pic" src="https://picsum.photos/id/1020/600">
+   <img class="pic" src="https://picsum.photos/id/1022/600">
    <img class="pic" src="https://picsum.photos/id/110/600">
    <img class="pic" src="https://picsum.photos/id/19/600">
    <img class="pic" src="https://picsum.photos/id/1025/600">
@@ -54,23 +60,46 @@
   }
 
   .gallery {
-    width: 80vw;
-    overflow-x: scroll;
-    display: flex;
-    margin: auto;
-  }
-
-  .pic {
-    padding: 0 .5em;
+    width: 5440px;
+    height: 605px;
   }
 
   .page {
     height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
 
   #top {
-    display: flex;
-    flex-direction: column;
     justify-content: space-around;
+  }
+
+  #bottom {
+    width: 80vw;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  #first {
+    -webkit-animation: bannermove 30s linear infinite;
+    animation: bannermove 30s linear infinite;
+  }
+
+  @keyframes "bannermove" {
+    from {
+      margin-left: 0px;
+    }
+    to {
+      margin-left: -7247px;
+    }
+  }
+
+  @-webkit-keyframes "bannermove" {
+    from {
+      margin-left: 0px;
+    }
+    to {
+      margin-left: -7247px;
+    }
   }
 </style>
