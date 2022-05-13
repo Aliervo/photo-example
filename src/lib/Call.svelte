@@ -1,9 +1,11 @@
 <script>
+  import { assets } from "$app/paths";
+
   export let phone = "7855554321";
 </script>
 
 <a href="tel:{phone}">
-  <img src="phone.svg" alt="Call Now!" />
+  <img src="{assets}/phone.svg" alt="Call Now!" />
   Call or Text:<br/>
   {`(${phone.slice(0,3)})${phone.slice(3,6)}-${phone.slice(6)}`}
 </a>

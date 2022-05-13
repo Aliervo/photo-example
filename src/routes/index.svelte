@@ -1,5 +1,9 @@
+<script>
+  import { assets } from "$app/paths";
+</script>
+
 <div class="page" id="top">
-  <img src="logo.svg" class= "logo" alt="Company Logo" />
+  <img src="{assets}/logo.svg" class= "logo" alt="Company Logo" />
 
   <h1>Welcome to Example Photography!</h1>
 
