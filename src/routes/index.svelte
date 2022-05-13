@@ -35,7 +35,7 @@
   }
 
   .arrow {
-    background: #ff0000;
+    background: darkorange;
     display: block;
     float: left;
     width: 3em;
@@ -56,7 +56,7 @@
     top: 1em;
     width: 3em;
     height: 3em;
-    background: #fff;
+    background: lightblue;
   }
 
   .gallery {
@@ -78,6 +78,7 @@
     width: 80vw;
     margin: auto;
     overflow: hidden;
+    justify-content: center;
   }
 
   #first {

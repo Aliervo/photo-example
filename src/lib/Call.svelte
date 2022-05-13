@@ -16,13 +16,13 @@
   a {
     display: flex;
     position: fixed;
-    bottom: 1em;
-    right: 1em;
+    bottom: .75em;
+    right: .75em;
     height: 2em;
     width: 10em;
     text-decoration: none;
     color: black;
-    background-color: blue;
+    background-color: royalblue;
     justify-content: space-evenly;
     align-items: center;
     padding: .5em .25em;

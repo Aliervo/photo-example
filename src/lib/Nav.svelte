@@ -12,18 +12,19 @@
 
 <style>
   a {
-    background-color: red;
-    padding: 0 1em;
+    background-color: lightblue;
+    padding: .75em .5em;
     text-decoration: none;
     text-align: center;
     min-width: 4em;
+    color: black;
   }
 
   nav {
     display: flex;
     justify-content: center;
-    height: 1.5em;
-    fill: red;
+    height: 2em;
+    fill: lightblue;
   }
 
 </style>
