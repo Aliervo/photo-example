@@ -11,6 +11,9 @@ specifiers:
   svelte: ^3.44.0
   svelte-markdown: ^0.2.2
 
+dependencies:
+  svelte-markdown: 0.2.2_svelte@3.48.0
+
 devDependencies:
   '@sveltejs/adapter-static': 1.0.0-next.30
   '@sveltejs/kit': 1.0.0-next.328_svelte@3.48.0
@@ -20,7 +23,6 @@ devDependencies:
   prettier: 2.6.2
   prettier-plugin-svelte: 2.7.0_kkjbqzpydplecjtkxrgomroeru
   svelte: 3.48.0
-  svelte-markdown: 0.2.2_svelte@3.48.0
 
 packages:
 
@@ -115,7 +117,7 @@ packages:
 
   /@types/marked/4.0.3:
     resolution: {integrity: sha512-HnMWQkLJEf/PnxZIfbm0yGJRRZYYMhb++O9M36UCTA9z53uPvVoSlAwJr3XOpDEryb7Hwl1qAx/MV6YIW1RXxg==}
-    dev: true
+    dev: false
 
   /acorn-jsx/5.3.2_acorn@8.7.1:
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
@@ -824,7 +826,7 @@ packages:
     resolution: {integrity: sha512-esX5lPdTfG4p8LDkv+obbRCyOKzB+820ZZyMOXJZygZBHrH9b3xXR64X4kT3sPe9Nx8qQXbmcz6kFSMt4Nfk6Q==}
     engines: {node: '>= 12'}
     hasBin: true
-    dev: true
+    dev: false
 
   /minimatch/3.1.2:
     resolution: {integrity: sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==}
@@ -1049,7 +1051,7 @@ packages:
       '@types/marked': 4.0.3
       marked: 4.0.15
       svelte: 3.48.0
-    dev: true
+    dev: false
 
   /svelte/3.48.0:
     resolution: {integrity: sha512-fN2YRm/bGumvjUpu6yI3BpvZnpIm9I6A7HR4oUNYd7ggYyIwSA/BX7DJ+UXXffLp6XNcUijyLvttbPVCYa/3xQ==}
